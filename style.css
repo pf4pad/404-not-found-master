@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+body {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+p,
+span,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+
+  width: 1440px;
+  height: 1080px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: auto;
+}
+
+.error {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+  padding-top: 40px;
+  margin-left: 77px;
+  margin-bottom: 206px;
+}
+
+.content {
+
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.img {
+  position: relative;
+  height: 447px;
+  width: 540px;
+
+
+
+}
+
+.text {
+  position: relative;
+  max-width: 586px;
+}
+
+.text span {
+  width: 586px;
+  height: 190px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+  margin-bottom: 36px;
+}
+
+.text p {
+  width: 381px;
+  height: 108px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+  margin-bottom: 64px;
+}
+
+.text a {
+  display: inline-block;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #333333;
+  padding: 24px 43px;
+  margin-bottom: 293px;
+}
+
+.name {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
